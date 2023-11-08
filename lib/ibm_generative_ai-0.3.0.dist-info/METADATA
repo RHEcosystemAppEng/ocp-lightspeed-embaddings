@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ibm-generative-ai
+Version: 0.3.0
+Summary: IBM Generative AI is a Python library built on IBM's large language model REST interface.
+Author-email: Lee Martie <lee.martie@ibm.com>, Ana Fucs <ana.fucs@ibm.com>, Veronique Demers <vdemers@ibm.com>, Mairead O'Neill <moneill@ibm.com>, Mirian Silva <mirianfrsilva@ibm.com>, Onkar Bhardwaj <onkarbhardwaj@ibm.com>, James Sutton <james.sutton@uk.ibm.com>, Ja Young Lee <younglee@ibm.com>, Adriana Meza Soria <adriana.meza.soria@ibm.com>, Tomas Dvorak <tomas.dvorak@ibm.com>, David Kristek <david.kristek@ibm.com>
+Maintainer-email: Tomas Dvorak <tomas.dvorak@ibm.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 <2
+Requires-Dist: requests >=2.31.0
+Requires-Dist: pydantic <2,>=1.10.10
+Requires-Dist: python-dotenv >=1.0.0
+Requires-Dist: aiohttp >=3.8.4
+Requires-Dist: pyyaml >=6.0.0
+Requires-Dist: httpx >=0.24.1
+Requires-Dist: aiolimiter >=1.1.0
+Requires-Dist: tqdm >=4.65.0
+Requires-Dist: httpx-sse >=0.3.1
+Requires-Dist: cachetools >=5.0.0
+Provides-Extra: all
+Requires-Dist: ibm-generative-ai[huggingface,langchain,localserver,pandas] ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest >=7.3.2 ; extra == 'dev'
+Requires-Dist: pytest-dotenv >=0.5.2 ; extra == 'dev'
+Requires-Dist: pre-commit >=3.3.2 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: sphinx >=6.1.3 ; extra == 'dev'
+Requires-Dist: furo >=2022.12.7 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+Requires-Dist: pytest-asyncio >=0.21.1 ; extra == 'dev'
+Requires-Dist: pytest-mock >=3.10.0 ; extra == 'dev'
+Requires-Dist: setuptools-scm >=7.1.0 ; extra == 'dev'
+Requires-Dist: pytest-httpx >=0.22.0 ; extra == 'dev'
+Requires-Dist: build >=0.10.0 ; extra == 'dev'
+Provides-Extra: huggingface
+Requires-Dist: datasets >=2.13.0 ; extra == 'huggingface'
+Requires-Dist: transformers[agents] >=4.33.3 ; extra == 'huggingface'
+Provides-Extra: langchain
+Requires-Dist: langchain >=0.0.200 ; extra == 'langchain'
+Provides-Extra: localserver
+Requires-Dist: uvicorn >=0.22.0 ; extra == 'localserver'
+Requires-Dist: fastapi >=0.97.0 ; extra == 'localserver'
+Provides-Extra: pandas
+Requires-Dist: pandas >=2.0.0 ; extra == 'pandas'
+
+# IBM Generative AI Python SDK
+
+
+This is the Python SDK for IBM Foundation Models Studio to bring IBM Generative AI (GenAI) into Python programs and to also extend it with useful operations and types.
+
+:books:	**API Documentation: [Link](https://ibm.github.io/ibm-generative-ai/)**
+
+*You can start a trial version or request a demo via https://www.ibm.com/products/watsonx-ai.*
+
+*Looking for the JavaScript/TypeScript version? Check out https://github.com/IBM/ibm-generative-ai-node-sdk.*
+*Looking for a command-line interface? Check out [IBM Generative AI CLI](https://github.com/IBM/ibm-generative-ai-cli).*
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/IBM/ibm-generative-ai/blob/main/LICENSE)
+![PyPI](https://img.shields.io/pypi/v/ibm-generative-ai)
+[![Build & Test](https://github.com/IBM/ibm-generative-ai/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/IBM/ibm-generative-ai/actions/workflows/main.yml)
+[![Integration Tests](https://github.com/IBM/ibm-generative-ai/actions/workflows/integration-test.yml/badge.svg)](https://github.com/IBM/ibm-generative-ai/actions/workflows/integration-test.yml)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/ibm-generative-ai)
+[![Coverage Status](https://coveralls.io/repos/github/IBM/ibm-generative-ai/badge.svg?branch=main)](https://coveralls.io/github/IBM/ibm-generative-ai?branch=main)
+
+## Important Information for Starters and Contributors
+- Do you want to get started with GenAI? check the [Getting Started Guideline](GETTING_STARTED.md) to install and develop amazing AI applications with IBM Generative AI SDK.
+- Do you want to contribute to the project? IBM Generative AI is an open-source project that welcomes the community to contribute with documentation, tests, bug corrections, and new fuctionality in the form of [extensions](EXTENSIONS.md). Please read our [code of conduct](CODE_OF_CONDUCT.md) to learn the expected behavior from participants that contribute to the project, and our [contribution guide](CONTRIBUTING.md) to learn the gitflow and steps to submit pull requests.
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
