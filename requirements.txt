@@ -1,0 +1,3 @@
+langchain
+ibm-generative-ai
+chromadb

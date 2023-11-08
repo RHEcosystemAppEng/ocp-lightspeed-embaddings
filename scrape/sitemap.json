@@ -1,0 +1,75 @@
+{
+"about": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/about" 
+,
+"getting_started": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/getting_started" 
+,
+"release_notes": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/release_notes" 
+,
+"security_and_compliance": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/security_and_compliance" 
+,
+"architecture": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/architecture" 
+,
+"installing": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/installing" 
+,
+"assisted_installer_for_openshift_container_platform": "https://access.redhat.com/documentation/en-us/assisted_installer_for_openshift_container_platform/2022/html-single/assisted_installer_for_openshift_container_platform" 
+,
+"updating_clusters": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/updating_clusters" 
+,
+"authentication_and_authorization": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/authentication_and_authorization" 
+,
+"networking": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/networking" 
+,
+"registry": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/registry" 
+,
+"post-installation_configuration": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/post-installation_configuration" 
+,
+"support": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/support" 
+,
+"migrating_from_version_3_to_4": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/migrating_from_version_3_to_4" 
+,
+"migration_toolkit_for_containers": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/migration_toolkit_for_containers" 
+,
+"backup_and_restore": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/backup_and_restore" 
+,
+"machine_management": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/machine_management" 
+,
+"web_console": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/web_console" 
+,
+"hosted_control_planes": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/hosted_control_planes" 
+,
+"cli_tools": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/cli_tools" 
+,
+"building_applications": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/building_applications" 
+,
+"serverless": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/serverless" 
+,
+"images": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/images" 
+,
+"nodes": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/nodes" 
+,
+"operators": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/operators" 
+,
+"specialized_hardware_and_driver_enablement": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/specialized_hardware_and_driver_enablement" 
+,
+"openshift_sandboxed_containers_release_notes": "https://access.redhat.com/documentation/en-us/openshift_sandboxed_containers/1.4/html-single/openshift_sandboxed_containers_release_notes" 
+,
+"openshift_sandboxed_containers_user_guide": "https://access.redhat.com/documentation/en-us/openshift_sandboxed_containers/1.4/html-single/openshift_sandboxed_containers_user_guide" 
+,
+"cicd": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/cicd" 
+,
+"logging": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/logging" 
+,
+"monitoring": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/monitoring" 
+,
+"scalability_and_performance": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/scalability_and_performance" 
+,
+"storage": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/storage" 
+,
+"virtualization": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/virtualization" 
+,
+"distributed_tracing": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/distributed_tracing" 
+,
+"service_mesh": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/service_mesh" 
+,
+"windows_container_support_for_openshift": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html-single/windows_container_support_for_openshift" 
+}
