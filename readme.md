@@ -4,3 +4,6 @@ LightSpeed RAG is a services that parses html pages and stores documents and emb
 
 
 
+## to do 
+[ ] define model in config 
+[ ] multiple vector db support: chromadb, milvius 
