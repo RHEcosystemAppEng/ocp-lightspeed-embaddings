@@ -1,3 +1,6 @@
 langchain
 ibm-generative-ai
 chromadb==0.4.4
+llama_index
+llama-cpp-python==0.1.78 
+transformers

@@ -3,10 +3,9 @@
 
 import os 
 
-
 from bs4 import BeautifulSoup
 from ScrapeProcess.HtmlParser import Parser
-from EmabbdingProcess.Embbaders import ChromaEmbbader
+from EmabbdingProcess.Embbaders import ChromaEmbbader, LlmIndexEmbbader
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -14,7 +13,7 @@ load_dotenv()
 SCRAPE_FOLDER = "./scrape"
 TRINING_FOLDER = "./TrainingData"
 
-def parse_and_load():
+def parse():
     
 # Get .html files from ./scrape
     files = os.listdir(SCRAPE_FOLDER)
@@ -34,7 +33,10 @@ def parse_and_load():
 def save_embedding(collection_name):
     ChromaEmbbader().save(collection_name)
 
+def save(collection_name):
+    LlmIndexEmbbader().save(collection_name,vector_db="local",service_context="Ollama")
+
 
 if __name__ == "__main__":
-    # parse_and_load()
-    save_embedding(collection_name="OCP_4.13")
+    #parse()
+    save(collection_name="OCP_4.13")
