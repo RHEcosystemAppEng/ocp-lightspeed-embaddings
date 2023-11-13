@@ -18,7 +18,9 @@ from llama_index.vector_stores import MilvusVectorStore
 from llama_index.embeddings.langchain import LangchainEmbedding
 from llama_index.embeddings import TextEmbeddingsInference
 from llama_index import ServiceContext
-from llama_index.llms import Ollama            
+from llama_index.llms import Ollama   
+
+from pymilvus import Collection, connections
 
 load_dotenv()
 
@@ -92,9 +94,21 @@ class LlmIndexEmbbader():
                 )
             vector_store = ChromaVectorStore(chroma_collection=collection)
             storage_context = StorageContext.from_defaults(vector_store=vector_store)
-        elif vector_db == "milvus":
-            print("not supported yet")
+        elif vector_db == "milvus": 
+            collection = Collection(collection_name)     
             
+            index_params= {
+                'nlist': 2048
+            }
+
+            collection.create_index(
+                        field_name="ocp", 
+                        index_params=index_params
+                        )
+            
+            ()
+            vector_store = MilvusVectorStore( "http://0.0.0.0:19530" ,  collection_name==collection)
+            storage_context = StorageContext.from_defaults(vector_store=vector_store)
         # service contxts   
         embed_model = "local"
         service_context = ServiceContext.from_defaults(embed_model=embed_model) 

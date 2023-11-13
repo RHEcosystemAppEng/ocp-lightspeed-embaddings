@@ -34,7 +34,7 @@ def save_embedding(collection_name):
     ChromaEmbbader().save(collection_name)
 
 def save(collection_name):
-    LlmIndexEmbbader().save(collection_name,vector_db="local",service_context="Ollama")
+    LlmIndexEmbbader().save(collection_name,vector_db="milvus",service_context="local")
 
 
 if __name__ == "__main__":
